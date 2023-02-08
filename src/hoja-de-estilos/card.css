@@ -1,0 +1,48 @@
+.card{
+    background-color: #1790BF;
+    width: 300px;
+    height: 350px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 10px;
+    position: relative;
+    
+
+    
+}
+.name{
+    background-color: #D91A4D;
+    color: white;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    float: right;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-top-right-radius: 16px;
+}
+.pokemon{
+    background-color: #F2CB05;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    
+
+}
+.pokemon-sprite{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 200px;
+
+}

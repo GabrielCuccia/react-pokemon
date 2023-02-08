@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#B6D936;
+}
+.buttons-container{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-size: 50px;
+    margin: auto;
+}
+.Cards{
+    display: flex;
+    
+    position: relative;
+    
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    height: 350px;
+    width: 700px;
+    
+
+}
+.Cards .card:nth-child(1){
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    transform: rotate(-5deg) translateY(10px);
+    
+}
+.Cards .card:nth-child(1):hover{
+    transform: rotate(-5deg)  translateY(0px);    
+    cursor: pointer;
+    transition: 0.1s;
+}
+.Cards .card:nth-child(2){
+    position: absolute;
+    z-index: 2;
+    left: 200px;
+    transform: rotate();
+    
+}
+.Cards .card:nth-child(2):hover{
+    transform: translateY(-10px);    
+    cursor: pointer;
+    transition: 0.1s;
+    }
+.Cards .card:nth-child(3){
+    position: absolute;
+    z-index: 1;
+    left: 400px;
+    transform: rotate(5deg) translateY(10px);
+
+    
+}
+.Cards .card:nth-child(3):hover{
+    transform: rotate(5deg)  translateY(0px);    
+    cursor: pointer;
+    transition: 0.1s;
+}
+.card1{
+    transform: rotate(5.5deg) translate(200px);
+}
+.card2{
+    transform: rotate(4deg) translate(110px);
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+}
